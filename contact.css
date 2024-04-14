@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+}
+   
+.inter-<uniquifier> {
+ font-family: "Inter", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+ font-variation-settings:
+ "slnt" 0;
+}
+
+.raleway-<uniquifier> {
+ font-family: "Raleway", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+}
+
+.petit-formal script-regular {
+ font-family: "Petit Formal Script", cursive;
+ font-weight: 400;
+ font-style: normal;
+}
+      
+   
+@font-face {
+   font-family: "Dream Avenue";
+   src: url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.eot");
+   src: url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.eot?#iefix")format("embedded-opentype"),
+   url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.woff2")format("woff2"),
+   url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.woff")format("woff"),
+   url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.ttf")format("truetype"),
+   url("https://db.onlinewebfonts.com/t/5da49843f66caf14799662bd12aa55a2.svg#Dream Avenue")format("svg");
+}
+
+.header-buttons {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+}
+
+.contact-header .btn {
+   transform: translate( 0, -200%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: white;
+   color: black;
+   font-size: 16px;
+   padding: 5px 5px;
+   margin-left: 10px;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   font-family: "Dream Avenue";
+   text-decoration: none;
+}
+    
+.contact-header .btn:hover {
+   background-color: black;
+}
+
+.contact-header {
+   height: 250px;
+}
+
+.image-block {
+   display: flex;
+   flex-basis: 100%;
+   flex-grow: 1;
+   flex-shrink: 1;
+   justify-content: center;
+   width: 100%;
+}
+
+h1 {
+   font-family: "Dream Avenue";
+   letter-spacing: 4px;
+   flex-wrap: wrap;
+   text-wrap: wrap;
+   text-align: center;
+   background-color: blueviolet;
+}
+
+
+
+.main-content {
+   display: flex;
+   background-color: linen;
+   flex-direction: row;
+}
+
+.about-me-img {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-basis: 100%;
+}
+
+.main-content-text {
+   flex-direction:row;
+   display: flex;
+   background-color: linen;
+   width: 50%;
+   height: 800px;
+   align-items: center;
+   padding: 30px;
+   text-align: center;
+   font-family: "Raleway";
+}
+
+.bodyinfo {
+   background-color: white(177, 176, 165);
+   display: flex;
+   flex-direction: row;
+   inline-size: 100%;
+   background-color: white;
+}
+
+.socials {
+   display: flex;
+   align-items: center;
+   padding: 40px;
+   margin-left: 20px;
+}
+
+.social-link {
+   padding-left: 30px;
+}
+
+.body-content {
+   background-color:white;
+   text-align: center;
+   padding: 50px;
+   font-family: "Dream Avenue";
+   text-align: center;
+   display: flex;
+   inline-size: 50%;
+}
+
+.p2 {
+   background-color: lightcoral;
+   flex-wrap: nowrap;
+   height: 100%;
+   display: block;
+}
+
+.form {
+   background-color: #B2AD8C;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Raleway";
+}
+   
+input[type=text], select, textarea {
+   width: 80%;
+   padding: 20px;
+   border: 1px solid black;
+   border-radius: 5px;
+   box-sizing: border-box;
+   font-family: "Raleway";
+}
+
+.formcontainer {
+   display: block;
+   display: flex;
+   background-color: #B2AD8C;
+   width: 100%;
+}
+
+label {
+   padding: 10px;
+}
+
+.send {
+   background-color: white;
+   font-family: "Raleway";
+   padding: 8px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 15%;
+}
+
+
+.container-paragraph {
+   display: flex;
+   width: 50%;
+   flex-grow: 1;
+   flex-shrink: 1;
+   justify-content: flex-start;
+   flex-direction: column;
+}
+
+.p-content {
+   display: flex;
+   padding-top: 0px;
+   padding-left: 20px;
+   padding-right: 30px;
+   font-family: "Raleway";
+   text-align: center;
+}
+
+.blank {
+ display: flex;
+ width: 100%;
+}
+
+.footer-logo {
+ display: flex;
+ justify-content: center;
+ padding:10px;
+}
+
+.footer-image {
+   border-radius: 50%;
+}
+
+.second-menu {
+   background-color: linen;
+   padding: 40px;
+   text-align: center;
+}
+
+.sm {
+   font-family: "dream Avenue";
+   padding: 10px;
+   text-decoration: none;
+   color: black;
+}
+
+.sm:hover {
+   text-decoration: underline;
+   color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .contact-header {
+   width: 100%;
+  }
+  .header-buttons {
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   justify-content: center;
+  }
+
+  .image-block {
+   width: fit-content;
+  }
+
+ .container-paragraph {
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 10px;
+   padding-top: 0px;
+   padding:0px;
+   padding-bottom: 30px;
+   justify-content: center;
+   text-align: center;
+ }
+}
+
+@media screen and (max-width: 600px) {
+   .container-paragraph {
+      font-size: 10px;
+      padding-bottom: 50px;
+   }
+
+  .form {
+   padding-bottom: 0%;
+  }
+  .socials {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+}
